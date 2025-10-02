@@ -1,7 +1,7 @@
 #Atividades
 
 loja_frutas ={
-    'laranja':{
+    'abacaxi':{
         'valor': 4.00,
     },
     'maca':{
