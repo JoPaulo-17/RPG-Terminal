@@ -1,26 +1,26 @@
 #Atividades
 
-loja_comidas ={
-    'laranja baiana':{
+loja_frutas ={
+    'laranja':{
         'valor': 4.00,
     },
-    'maca verde':{
+    'maca':{
         'valor': 5.00,
     },
-    'coco verde':{
+    'banana':{
         'valor': 2.00,
     },
 }
 
-for k,v in loja_comidas.items():
+for k,v in loja_frutas.items():
   loja_comidas.get(k)['valor']*1.2 
 print(loja_comidas)
 
-loja_comidas.update({'Mexerica': 4.00})
-print(loja_comidas,'#Mexirica adicionada')
+loja_frutas.update({'limao': 4.00})
+print(loja_comidas,'#Limão adicionada')
 
-for chave, valor in loja_comidas.items():
+for chave, valor in loja_frutas.items():
   print(f"key:{chave}: value:'{valor}")
 
-loja_comidas.pop('maca verde')
-print(loja_comidas, '#Maca verde removida')
+loja_frutas.pop('maca')
+print(loja_comidas, '#Maça removida')
